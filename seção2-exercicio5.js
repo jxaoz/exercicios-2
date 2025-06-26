@@ -4,9 +4,8 @@ function enviarBusca(texto) {
 
 const buscaDebounce = debounce(enviarBusca, 1000);
 
-// Simulando chamadas rápidas
 buscaDebounce("c");
 buscaDebounce("ca");
 buscaDebounce("car");
 buscaDebounce("carr");
-buscaDebounce("carro"); // Apenas esta será executada após 1 segundo sem novas chamadas
+buscaDebounce("carro");
